@@ -4,7 +4,7 @@
 
 #### Small E-health Management System
 
-The Small E-health Management System is a Java-based application created by SacitDev, designed to simulate a digital healthcare environment. This project leverages Object-Oriented Programming principles to manage patient and doctor data, appointments, diseases, drug prescriptions, and integrates entities like pharmacies and universities.
+The Small E-health Management System is a Java-based application created by Michael, designed to simulate a digital healthcare environment. This project leverages Object-Oriented Programming principles to manage patient and doctor data, appointments, diseases, drug prescriptions, and integrates entities like pharmacies and universities.
 
 ---
 
