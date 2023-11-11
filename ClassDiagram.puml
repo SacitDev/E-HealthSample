@@ -1,0 +1,284 @@
+
+' PlantUML by UPC
+' Michael Wernofsky for OOP OSTIM course
+
+@startuml E-Health
+
+class Appointment {
+    - appDate: LocalDate
+    - appDoc: Doctor
+    - appDis: Disease
+    - appDrugs: ArrayList<Drug>
+    - description: String
+
+    + Appointment(appDate: LocalDate, appDoc: Doctor, appDis: Disease, appDrugs: ArrayList<Drug>)
+    + Appointment(appDate: LocalDate, appDoc: Doctor, appDis: Disease, appDrugs: ArrayList<Drug>, description: String)
+    + getAppDate(): LocalDate
+    + getAppDoc(): Doctor
+    + getAppDis(): Disease
+    + getAppDrugs(): ArrayList<Drug>
+    + getDescription(): String
+}
+
+class Disease {
+    - diseaseNum: int
+    - diseaseName: String
+    - type: diseaseType
+    - level: diseaseLevel
+
+    + Disease(diseaseNum: int, diseaseName: String, type: diseaseType, level: diseaseLevel)
+    - nonValidValue()
+    + getDiseaseNum(): int
+    + getDiseaseName(): String
+    + getType(): diseaseType
+    + getLevel(): diseaseLevel
+    + setDiseaseName(diseaseName: String): void
+    + setType(type: diseaseType): void
+    + setLevel(level: diseaseLevel): void
+    + toString(): String
+}
+
+abstract class Person {
+    - pID: int
+    - firstName: String
+    - lastName: String
+    - BirthDate: LocalDate
+    - age: int
+    - gender: sex
+    - city: String
+    - address: String
+    - occupation: String
+    - pDegree: degree
+
+    + Person(pID: int, firstName: String, lastName: String)
+    + Person(pID: int, firstName: String, lastName: String, BirthDate: LocalDate, gender: sex, city: String, address: String, occupation: String, pDegree: degree)
+    - defaultValue(): void
+    - nonValidValue(): void
+    + getpID(): int
+    + getFirstName(): String
+    + setFirstName(firstName: String): void
+    + getLastName(): String
+    + setLastName(lastName: String): void
+    + getBirthDate(): LocalDate
+    + setBirthDate(BirthDate: LocalDate): void
+    + getAge(): int
+    + getGender(): sex
+    + setGender(gender: sex): void
+    + getCity(): String
+    + setCity(city: String): void
+    + getAddress(): String
+    + setAddress(address: String): void
+    + getOccupation(): String
+    + setOccupation(occupation: String): void
+    + getpDegree(): degree
+    + setpDegree(pDegree: degree): void
+}
+
+class Patient extends Person {
+    - patientPass: String
+    - selectedDoc: boolean
+    - basicInsurance: String
+    - supplementaryInsurance: String
+    - pReport: Report
+    - toShare: boolean
+    - fullDoc: ArrayList<Doctor>
+    - partialDoc: ArrayList<Doctor>
+
+    + Patient(basicInsurance: String, supplementaryInsurance: String, pID: int, firstName: String, lastName: String)
+    + Patient(basicInsurance: String, supplementaryInsurance: String, pID: int, firstName: String, lastName: String, BirthDate: LocalDate, gender: Types.sex, city: String, address: String, occupation: String, pDegree: Types.degree)
+    + Patient(pID: int, firstName: String, lastName: String)
+    + Patient(pID: int, firstName: String, lastName: String, BirthDate: LocalDate, gender: Types.sex, city: String, address: String, occupation: String, pDegree: Types.degree)
+    + getPatientPass(): String
+    + setPatientPass(patientPass: String): void
+    + getBasicInsurance(): String
+    + setBasicInsurance(basicInsurance: String): void
+    + getSupplementaryInsurance(): String
+    + setSupplementaryInsurance(supplementaryInsurance: String): void
+    + isToShare(): boolean
+    + setToShare(toShare: boolean): void
+    + getFullDoc(): ArrayList<Doctor>
+    + addFullDoc(fullDoc: Doctor): void
+    + getPartialDoc(): ArrayList<Doctor>
+    + addPartialDoc(partialDoc: Doctor): void
+    + isSelectedDoc(): boolean
+    + setSelectedDoc(selectedDoc: boolean): void
+    + toString(): String
+    + getReport(accLevel: Types.accessLevel, docID: int): Report
+    + addReport(docID: int, addDate: LocalDate, addDoc: Doctor, addDis: Disease, addDrugs: ArrayList<Drug>): boolean
+    + addReport(docID: int, addDate: LocalDate, addDoc: Doctor, addDis: Disease, addDrugs: ArrayList<Drug>, description: String): boolean
+}
+
+class Doctor extends Person {
+    - specialization: diseaseType
+    - docPass: String
+    - patients: ArrayList<Integer>
+
+    + Doctor()
+    + Doctor(specialization: diseaseType, pID: int, firstName: String, lastName: String)
+    + Doctor(specialization: diseaseType, pID: int, firstName: String, lastName: String, BirthDate: LocalDate, gender: Types.sex, city: String, address: String, pDegree: Types.degree)
+    + Doctor(pID: int, firstName: String, lastName: String)
+    + Doctor(pID: int, firstName: String, lastName: String, BirthDate: LocalDate, gender: Types.sex, city: String, address: String, occupation: String, pDegree: Types.degree)
+    + getPatients(): ArrayList<Integer>
+    + addPatients(p: int): void
+    + getSpecialization(): diseaseType
+    + setSpecialization(specialization: diseaseType): void
+    + getDocPass(): String
+    + setDocPass(docPass: String): void
+    + toString(): String
+}
+
+class Drug {
+    - dID: int
+    - name: String
+    - description: String
+
+    + Drug(dID: int, name: String, description: String)
+    - nonValidValue()
+    + getdID(): int
+    + getName(): String
+    + getDescription(): String
+    + setName(name: String): void
+    + setDescription(description: String): void
+    + toString(): String
+}
+
+class FileManager {
+    {static} - docFilesLoc: String
+    {static} - paiFilesLoc: String
+
+    {static} + writeDoc(doc: Doctor): void
+    {static} + writePai(pai: Patient): void
+    {static} + readDoc(nID: int): Doctor
+    {static} + readPai(nID: int): Patient
+    {static} + readAll(): void
+    {static} + writeAll(): void
+}
+
+class HealthMinistry {
+    {static} - pList: LinkedList<Patient>
+    {static} - dList: LinkedList<Doctor>
+    {static} - phList: LinkedList<Pharmacy>
+    {static} - disList: LinkedList<Disease>
+    {static} - uList: LinkedList<University>
+    {static} - adminPass: String
+
+    {static} + printDoc(): void
+    {static} + checkDoc(inID: int): boolean
+    {static} + getDoc(inID: int): Doctor
+    {static} + getPai(inID: int): Patient
+    {static} + getDis(inID: int): Disease
+    {static} + getPhar(askedDrugs: LinkedList<Drug>): LinkedList<Pharmacy>
+    {static} + getpList(): LinkedList<Patient>
+    {static} + addpList(p: Patient): void
+    {static} + getdList(): LinkedList<Doctor>
+    {static} + adddList(d: Doctor): void
+    {static} + getPhList(): LinkedList<Pharmacy>
+    {static} + setPhList(phList: LinkedList<Pharmacy>): void
+    {static} + getuList(): LinkedList<University>
+    {static} + adduList(u: University): void
+    {static} + getAdminPass(): String
+    {static} + setAdminPass(adminPass: String): void
+}
+
+class Pharmacy {
+    - phID: int
+    - name: String
+    - address: String
+    - availableDrugs: LinkedList<Drug>
+    - accLevel: Types.accessLevel {readOnly}
+
+    + Pharmacy(phID: int, name: String, address: String, availableDrugs: LinkedList<Drug>)
+    - nonValidValue(): void
+    + isAvailable(askedDrugs: LinkedList<Drug>): boolean
+    + getPhID(): int
+    + getName(): String
+    + getAddress(): String
+    + setName(name: String): void
+    + setAddress(address: String): void
+    + toString(): String
+}
+
+class Report {
+    - reportNum: int
+    - status: String
+    - appList: ArrayList<Appointment>
+
+    + Report(reportNum: int)
+    + getReportNum(): int
+    + setReportNum(reportNum: int): void
+    + getStatus(): String
+    + setStatus(status: String): void
+    + addToReport(addDate: LocalDate, addDoc: Doctor, addDis: Disease, addDrugs: ArrayList<Drug>, description: String): void
+    + addToReport(addDate: LocalDate, addDoc: Doctor, addDis: Disease, addDrugs: ArrayList<Drug>): void
+    + getAppList(): ArrayList<Appointment>
+}
+
+class University {
+    - unID: int
+    - uniName: String
+    - researchData: LinkedList<Report>
+    - accLevel: Types.accessLevel {readOnly}
+
+    + University(unID: int, uniName: String)
+    - nonValidValue(): void
+    + getUnID(): int
+    + getUniName(): String
+    + setUniName(uniName: String): void
+    + getResearchData(): LinkedList<Report>
+    + addResearchData(r: Report): void
+    + toString(): String
+}
+
+
+class Types {
+    {static} - DOC_CAP: int
+    {static} - basicPass: String
+    {static} - pIDs: LinkedList<Integer>
+    {static} - dNums: LinkedList<Integer>
+    {static} - unIDS: LinkedList<Integer>
+    {static} - dIDS: LinkedList<Integer>
+    {static} - phIDS: LinkedList<Integer>
+}
+
+
+
+' Relationships
+Appointment "1" -- "0..*" Doctor
+Appointment "*" -- "1" Disease
+Appointment "*" -- "0..*" Drug
+
+' Doctor --|> Person
+Doctor "0..*" -- "0..*" Patient : full access /
+Doctor "0..*" -- "0..*" Patient : partial access /
+
+' Patient --|> Person
+Patient "1" -- "1" Report
+
+Pharmacy "*" -- "0..*" Drug
+
+HealthMinistry "0..*" -- "0..*" Patient
+HealthMinistry "0..*" -- "0..*" Doctor
+HealthMinistry "0..*" -- "0..*" Pharmacy
+HealthMinistry "0..*" -- "0..*" Disease
+HealthMinistry "0..*" -- "0..*" University
+
+University "0..*" -- "0..*" Report
+
+' Enumerations inside Types
+Types : enum sex { Male, Female }
+Types : enum degree { Undergraduate, Associate, Bachelor, Graduate, Master, Doctoral, Professional, Specialist }
+Types : enum diseaseType { General, AllergyAndImmunology, Anesthesiology, Dermatology, DiagnosticRadiology, InternalMedicine, MedicalGenetics, Neurology, Pathology, Urology }
+Types : enum diseaseLevel { Basic, Medium, High }
+Types : enum accessLevel { Full, Partial, Private, Pharmaceutical }
+Types -- Person
+Types -- HealthMinistry
+Types -- Pharmacy
+Types -- University
+Types -- Disease
+
+' FileManager interactions
+FileManager ..> Doctor : read/write
+FileManager ..> Patient : read/write
+FileManager ..> HealthMinistry : read/write
+
+@enduml

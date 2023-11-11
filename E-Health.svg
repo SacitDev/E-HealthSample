@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="2309px" preserveAspectRatio="none" style="width:3254px;height:2309px;background:#FFFFFF;" version="1.1" viewBox="0 0 3254 2309" width="3254px" zoomAndPan="magnify"><defs/><g><!--MD5=[c508b5b6bbe276ff5e2700b6641f837f]
+class Appointment--><g id="elem_Appointment"><rect codeLine="2" fill="#F1F1F1" height="259.3125" id="Appointment" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="762" x="1087.5" y="520.5"/><ellipse cx="1424.75" cy="536.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1427.5156,532.375 Q1427.6719,532.1563 1427.8594,532.0469 Q1428.0469,531.9375 1428.2656,531.9375 Q1428.6406,531.9375 1428.875,532.2031 Q1429.1094,532.4531 1429.1094,533.0625 L1429.1094,534.5156 Q1429.1094,535.125 1428.875,535.3906 Q1428.6406,535.6563 1428.2656,535.6563 Q1427.9219,535.6563 1427.7188,535.4531 Q1427.5156,535.2656 1427.4063,534.75 Q1427.3594,534.3906 1427.1719,534.2031 Q1426.8438,533.8281 1426.2344,533.6094 Q1425.625,533.3906 1425,533.3906 Q1424.2344,533.3906 1423.5938,533.7188 Q1422.9688,534.0469 1422.4688,534.7969 Q1421.9844,535.5469 1421.9844,536.5781 L1421.9844,537.6719 Q1421.9844,538.9063 1422.875,539.7344 Q1423.7656,540.5469 1425.3594,540.5469 Q1426.2969,540.5469 1426.9531,540.2969 Q1427.3438,540.1406 1427.7656,539.7031 Q1428.0313,539.4375 1428.1719,539.3594 Q1428.3281,539.2813 1428.5313,539.2813 Q1428.8594,539.2813 1429.1094,539.5469 Q1429.375,539.7969 1429.375,540.1406 Q1429.375,540.4844 1429.0313,540.8906 Q1428.5313,541.4688 1427.7344,541.7969 Q1426.6563,542.25 1425.3594,542.25 Q1423.8438,542.25 1422.6406,541.625 Q1421.6563,541.125 1420.9688,540.0625 Q1420.2813,538.9844 1420.2813,537.7031 L1420.2813,536.5469 Q1420.2813,535.2188 1420.8906,534.0781 Q1421.5156,532.9219 1422.6094,532.3125 Q1423.7031,531.6875 1424.9375,531.6875 Q1425.6719,531.6875 1426.3125,531.8594 Q1426.9688,532.0156 1427.5156,532.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="1445.25" y="542.2285">Appointment</text><line style="stroke:#181818;stroke-width:0.5;" x1="1088.5" x2="1848.5" y1="552.5" y2="552.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1095.5" y="563.8047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="1107.5" y="571.0332">appDate: LocalDate</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1095.5" y="581.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="1107.5" y="588.6426">appDoc: Doctor</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1095.5" y="599.0234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="1107.5" y="606.252">appDis: Disease</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1095.5" y="616.6328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="173" x="1107.5" y="623.8613">appDrugs: ArrayList&lt;Drug&gt;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1095.5" y="634.2422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="1107.5" y="641.4707">description: String</text><line style="stroke:#181818;stroke-width:0.5;" x1="1088.5" x2="1848.5" y1="648.5469" y2="648.5469"/><ellipse cx="1098.5" cy="662.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="614" x="1107.5" y="667.0801">Appointment(appDate: LocalDate, appDoc: Doctor, appDis: Disease, appDrugs: ArrayList&lt;Drug&gt;)</text><ellipse cx="1098.5" cy="680.4609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="736" x="1107.5" y="684.6895">Appointment(appDate: LocalDate, appDoc: Doctor, appDis: Disease, appDrugs: ArrayList&lt;Drug&gt;, description: String)</text><ellipse cx="1098.5" cy="698.0703" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157" x="1107.5" y="702.2988">getAppDate(): LocalDate</text><ellipse cx="1098.5" cy="715.6797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="1107.5" y="719.9082">getAppDoc(): Doctor</text><ellipse cx="1098.5" cy="733.2891" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="1107.5" y="737.5176">getAppDis(): Disease</text><ellipse cx="1098.5" cy="750.8984" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="204" x="1107.5" y="755.127">getAppDrugs(): ArrayList&lt;Drug&gt;</text><ellipse cx="1098.5" cy="768.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="1107.5" y="772.7363">getDescription(): String</text></g><!--MD5=[41a810bb8b0fdc0d19f320c9a7e75908]
+class Disease--><g id="elem_Disease"><rect codeLine="18" fill="#F1F1F1" height="294.5313" id="Disease" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="577" x="936" y="1042.5"/><ellipse cx="1194.75" cy="1058.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1197.5156,1054.375 Q1197.6719,1054.1563 1197.8594,1054.0469 Q1198.0469,1053.9375 1198.2656,1053.9375 Q1198.6406,1053.9375 1198.875,1054.2031 Q1199.1094,1054.4531 1199.1094,1055.0625 L1199.1094,1056.5156 Q1199.1094,1057.125 1198.875,1057.3906 Q1198.6406,1057.6563 1198.2656,1057.6563 Q1197.9219,1057.6563 1197.7188,1057.4531 Q1197.5156,1057.2656 1197.4063,1056.75 Q1197.3594,1056.3906 1197.1719,1056.2031 Q1196.8438,1055.8281 1196.2344,1055.6094 Q1195.625,1055.3906 1195,1055.3906 Q1194.2344,1055.3906 1193.5938,1055.7188 Q1192.9688,1056.0469 1192.4688,1056.7969 Q1191.9844,1057.5469 1191.9844,1058.5781 L1191.9844,1059.6719 Q1191.9844,1060.9063 1192.875,1061.7344 Q1193.7656,1062.5469 1195.3594,1062.5469 Q1196.2969,1062.5469 1196.9531,1062.2969 Q1197.3438,1062.1406 1197.7656,1061.7031 Q1198.0313,1061.4375 1198.1719,1061.3594 Q1198.3281,1061.2813 1198.5313,1061.2813 Q1198.8594,1061.2813 1199.1094,1061.5469 Q1199.375,1061.7969 1199.375,1062.1406 Q1199.375,1062.4844 1199.0313,1062.8906 Q1198.5313,1063.4688 1197.7344,1063.7969 Q1196.6563,1064.25 1195.3594,1064.25 Q1193.8438,1064.25 1192.6406,1063.625 Q1191.6563,1063.125 1190.9688,1062.0625 Q1190.2813,1060.9844 1190.2813,1059.7031 L1190.2813,1058.5469 Q1190.2813,1057.2188 1190.8906,1056.0781 Q1191.5156,1054.9219 1192.6094,1054.3125 Q1193.7031,1053.6875 1194.9375,1053.6875 Q1195.6719,1053.6875 1196.3125,1053.8594 Q1196.9688,1054.0156 1197.5156,1054.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="1215.25" y="1064.2285">Disease</text><line style="stroke:#181818;stroke-width:0.5;" x1="937" x2="1512" y1="1074.5" y2="1074.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="944" y="1085.8047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="956" y="1093.0332">diseaseNum: int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="944" y="1103.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="956" y="1110.6426">diseaseName: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="944" y="1121.0234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="956" y="1128.252">type: diseaseType</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="944" y="1138.6328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="956" y="1145.8613">level: diseaseLevel</text><line style="stroke:#181818;stroke-width:0.5;" x1="937" x2="1512" y1="1152.9375" y2="1152.9375"/><ellipse cx="947" cy="1167.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="551" x="956" y="1171.4707">Disease(diseaseNum: int, diseaseName: String, type: diseaseType, level: diseaseLevel)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="944" y="1181.8516"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="956" y="1189.0801">nonValidValue()</text><ellipse cx="947" cy="1202.4609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="956" y="1206.6895">getDiseaseNum(): int</text><ellipse cx="947" cy="1220.0703" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="162" x="956" y="1224.2988">getDiseaseName(): String</text><ellipse cx="947" cy="1237.6797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="956" y="1241.9082">getType(): diseaseType</text><ellipse cx="947" cy="1255.2891" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="155" x="956" y="1259.5176">getLevel(): diseaseLevel</text><ellipse cx="947" cy="1272.8984" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="280" x="956" y="1277.127">setDiseaseName(diseaseName: String): void</text><ellipse cx="947" cy="1290.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="211" x="956" y="1294.7363">setType(type: diseaseType): void</text><ellipse cx="947" cy="1308.1172" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="217" x="956" y="1312.3457">setLevel(level: diseaseLevel): void</text><ellipse cx="947" cy="1325.7266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="956" y="1329.9551">toString(): String</text></g><!--MD5=[09ce52be0ee7de43c61b6e2d59bf108b]
+class Person--><g id="elem_Person"><rect codeLine="36" fill="#F1F1F1" height="611.5" id="Person" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="985" x="1885" y="344"/><ellipse cx="2350.75" cy="360" fill="#A9DCDF" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2352.9375,361.7656 L2348.7969,361.7656 L2348.375,362.7969 L2348.7969,362.7969 Q2349.4063,362.7969 2349.6719,363.0313 Q2349.9375,363.2656 2349.9375,363.6563 Q2349.9375,364.0313 2349.6719,364.2656 Q2349.4063,364.5 2348.7969,364.5 L2346.5,364.5 Q2345.8906,364.5 2345.6406,364.2656 Q2345.375,364.0313 2345.375,363.6406 Q2345.375,363.2656 2345.6563,363.0313 Q2345.9219,362.7813 2346.5469,362.7969 L2349.2188,356.1406 L2348.1094,356.1406 Q2347.5,356.1406 2347.2344,355.9063 Q2346.9688,355.6719 2346.9688,355.2813 Q2346.9688,354.9063 2347.2344,354.6719 Q2347.5,354.4375 2348.1094,354.4375 L2351.7813,354.4375 L2355.1719,362.7969 Q2355.7656,362.7969 2355.9531,362.9375 Q2356.3438,363.2031 2356.3438,363.6563 Q2356.3438,364.0313 2356.0781,364.2656 Q2355.8281,364.5 2355.2188,364.5 L2352.9219,364.5 Q2352.3125,364.5 2352.0469,364.2656 Q2351.7813,364.0313 2351.7813,363.6406 Q2351.7813,363.2656 2352.0469,363.0313 Q2352.3125,362.7969 2352.9219,362.7969 L2353.3438,362.7969 L2352.9375,361.7656 Z M2352.2188,360.0625 L2350.8594,356.6875 L2349.4844,360.0625 L2352.2188,360.0625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="45" x="2371.25" y="365.7285">Person</text><line style="stroke:#181818;stroke-width:0.5;" x1="1886" x2="2869" y1="376" y2="376"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1893" y="387.3047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="1905" y="394.5332">pID: int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1893" y="404.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="1905" y="412.1426">firstName: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1893" y="422.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="1905" y="429.752">lastName: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1893" y="440.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="1905" y="447.3613">BirthDate: LocalDate</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1893" y="457.7422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="1905" y="464.9707">age: int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1893" y="475.3516"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="1905" y="482.5801">gender: sex</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1893" y="492.9609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="1905" y="500.1895">city: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1893" y="510.5703"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="1905" y="517.7988">address: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1893" y="528.1797"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="1905" y="535.4082">occupation: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1893" y="545.7891"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="1905" y="553.0176">pDegree: degree</text><line style="stroke:#181818;stroke-width:0.5;" x1="1886" x2="2869" y1="560.0938" y2="560.0938"/><ellipse cx="1896" cy="574.3984" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="322" x="1905" y="578.627">Person(pID: int, firstName: String, lastName: String)</text><ellipse cx="1896" cy="592.0078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="959" x="1905" y="596.2363">Person(pID: int, firstName: String, lastName: String, BirthDate: LocalDate, gender: sex, city: String, address: String, occupation: String, pDegree: degree)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1893" y="606.6172"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="1905" y="613.8457">defaultValue(): void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1893" y="624.2266"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135" x="1905" y="631.4551">nonValidValue(): void</text><ellipse cx="1896" cy="644.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="1905" y="649.0645">getpID(): int</text><ellipse cx="1896" cy="662.4453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="1905" y="666.6738">getFirstName(): String</text><ellipse cx="1896" cy="680.0547" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="231" x="1905" y="684.2832">setFirstName(firstName: String): void</text><ellipse cx="1896" cy="697.6641" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="1905" y="701.8926">getLastName(): String</text><ellipse cx="1896" cy="715.2734" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="229" x="1905" y="719.502">setLastName(lastName: String): void</text><ellipse cx="1896" cy="732.8828" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="161" x="1905" y="737.1113">getBirthDate(): LocalDate</text><ellipse cx="1896" cy="750.4922" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="253" x="1905" y="754.7207">setBirthDate(BirthDate: LocalDate): void</text><ellipse cx="1896" cy="768.1016" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="1905" y="772.3301">getAge(): int</text><ellipse cx="1896" cy="785.7109" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="1905" y="789.9395">getGender(): sex</text><ellipse cx="1896" cy="803.3203" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="185" x="1905" y="807.5488">setGender(gender: sex): void</text><ellipse cx="1896" cy="820.9297" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="1905" y="825.1582">getCity(): String</text><ellipse cx="1896" cy="838.5391" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="1905" y="842.7676">setCity(city: String): void</text><ellipse cx="1896" cy="856.1484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="127" x="1905" y="860.377">getAddress(): String</text><ellipse cx="1896" cy="873.7578" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="211" x="1905" y="877.9863">setAddress(address: String): void</text><ellipse cx="1896" cy="891.3672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="147" x="1905" y="895.5957">getOccupation(): String</text><ellipse cx="1896" cy="908.9766" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="249" x="1905" y="913.2051">setOccupation(occupation: String): void</text><ellipse cx="1896" cy="926.5859" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="1905" y="930.8145">getpDegree(): degree</text><ellipse cx="1896" cy="944.1953" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="226" x="1905" y="948.4238">setpDegree(pDegree: degree): void</text></g><!--MD5=[9dd4eaa2771a2ff8dbee15cc1e732cab]
+class Patient--><g id="elem_Patient"><rect codeLine="72" fill="#F1F1F1" height="576.2813" id="Patient" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="1426" x="1132.5" y="1424"/><ellipse cx="1819.25" cy="1440" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1822.0156,1435.875 Q1822.1719,1435.6563 1822.3594,1435.5469 Q1822.5469,1435.4375 1822.7656,1435.4375 Q1823.1406,1435.4375 1823.375,1435.7031 Q1823.6094,1435.9531 1823.6094,1436.5625 L1823.6094,1438.0156 Q1823.6094,1438.625 1823.375,1438.8906 Q1823.1406,1439.1563 1822.7656,1439.1563 Q1822.4219,1439.1563 1822.2188,1438.9531 Q1822.0156,1438.7656 1821.9063,1438.25 Q1821.8594,1437.8906 1821.6719,1437.7031 Q1821.3438,1437.3281 1820.7344,1437.1094 Q1820.125,1436.8906 1819.5,1436.8906 Q1818.7344,1436.8906 1818.0938,1437.2188 Q1817.4688,1437.5469 1816.9688,1438.2969 Q1816.4844,1439.0469 1816.4844,1440.0781 L1816.4844,1441.1719 Q1816.4844,1442.4063 1817.375,1443.2344 Q1818.2656,1444.0469 1819.8594,1444.0469 Q1820.7969,1444.0469 1821.4531,1443.7969 Q1821.8438,1443.6406 1822.2656,1443.2031 Q1822.5313,1442.9375 1822.6719,1442.8594 Q1822.8281,1442.7813 1823.0313,1442.7813 Q1823.3594,1442.7813 1823.6094,1443.0469 Q1823.875,1443.2969 1823.875,1443.6406 Q1823.875,1443.9844 1823.5313,1444.3906 Q1823.0313,1444.9688 1822.2344,1445.2969 Q1821.1563,1445.75 1819.8594,1445.75 Q1818.3438,1445.75 1817.1406,1445.125 Q1816.1563,1444.625 1815.4688,1443.5625 Q1814.7813,1442.4844 1814.7813,1441.2031 L1814.7813,1440.0469 Q1814.7813,1438.7188 1815.3906,1437.5781 Q1816.0156,1436.4219 1817.1094,1435.8125 Q1818.2031,1435.1875 1819.4375,1435.1875 Q1820.1719,1435.1875 1820.8125,1435.3594 Q1821.4688,1435.5156 1822.0156,1435.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="1839.75" y="1445.7285">Patient</text><line style="stroke:#181818;stroke-width:0.5;" x1="1133.5" x2="2557.5" y1="1456" y2="1456"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1140.5" y="1467.3047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="1152.5" y="1474.5332">patientPass: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1140.5" y="1484.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="1152.5" y="1492.1426">selectedDoc: boolean</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1140.5" y="1502.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="1152.5" y="1509.752">basicInsurance: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1140.5" y="1520.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="200" x="1152.5" y="1527.3613">supplementaryInsurance: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1140.5" y="1537.7422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="1152.5" y="1544.9707">pReport: Report</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1140.5" y="1555.3516"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="1152.5" y="1562.5801">toShare: boolean</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1140.5" y="1572.9609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="165" x="1152.5" y="1580.1895">fullDoc: ArrayList&lt;Doctor&gt;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1140.5" y="1590.5703"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="186" x="1152.5" y="1597.7988">partialDoc: ArrayList&lt;Doctor&gt;</text><line style="stroke:#181818;stroke-width:0.5;" x1="1133.5" x2="2557.5" y1="1604.875" y2="1604.875"/><ellipse cx="1143.5" cy="1619.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="677" x="1152.5" y="1623.4082">Patient(basicInsurance: String, supplementaryInsurance: String, pID: int, firstName: String, lastName: String)</text><ellipse cx="1143.5" cy="1636.7891" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="1400" x="1152.5" y="1641.0176">Patient(basicInsurance: String, supplementaryInsurance: String, pID: int, firstName: String, lastName: String, BirthDate: LocalDate, gender: Types.sex, city: String, address: String, occupation: String, pDegree: Types.degree)</text><ellipse cx="1143.5" cy="1654.3984" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="321" x="1152.5" y="1658.627">Patient(pID: int, firstName: String, lastName: String)</text><ellipse cx="1143.5" cy="1672.0078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="1044" x="1152.5" y="1676.2363">Patient(pID: int, firstName: String, lastName: String, BirthDate: LocalDate, gender: Types.sex, city: String, address: String, occupation: String, pDegree: Types.degree)</text><ellipse cx="1143.5" cy="1689.6172" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="1152.5" y="1693.8457">getPatientPass(): String</text><ellipse cx="1143.5" cy="1707.2266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="257" x="1152.5" y="1711.4551">setPatientPass(patientPass: String): void</text><ellipse cx="1143.5" cy="1724.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="1152.5" y="1729.0645">getBasicInsurance(): String</text><ellipse cx="1143.5" cy="1742.4453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="299" x="1152.5" y="1746.6738">setBasicInsurance(basicInsurance: String): void</text><ellipse cx="1143.5" cy="1760.0547" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="232" x="1152.5" y="1764.2832">getSupplementaryInsurance(): String</text><ellipse cx="1143.5" cy="1777.6641" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="420" x="1152.5" y="1781.8926">setSupplementaryInsurance(supplementaryInsurance: String): void</text><ellipse cx="1143.5" cy="1795.2734" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="1152.5" y="1799.502">isToShare(): boolean</text><ellipse cx="1143.5" cy="1812.8828" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="227" x="1152.5" y="1817.1113">setToShare(toShare: boolean): void</text><ellipse cx="1143.5" cy="1830.4922" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="200" x="1152.5" y="1834.7207">getFullDoc(): ArrayList&lt;Doctor&gt;</text><ellipse cx="1143.5" cy="1848.1016" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="209" x="1152.5" y="1852.3301">addFullDoc(fullDoc: Doctor): void</text><ellipse cx="1143.5" cy="1865.7109" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="217" x="1152.5" y="1869.9395">getPartialDoc(): ArrayList&lt;Doctor&gt;</text><ellipse cx="1143.5" cy="1883.3203" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="247" x="1152.5" y="1887.5488">addPartialDoc(partialDoc: Doctor): void</text><ellipse cx="1143.5" cy="1900.9297" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="1152.5" y="1905.1582">isSelectedDoc(): boolean</text><ellipse cx="1143.5" cy="1918.5391" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="280" x="1152.5" y="1922.7676">setSelectedDoc(selectedDoc: boolean): void</text><ellipse cx="1143.5" cy="1936.1484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="1152.5" y="1940.377">toString(): String</text><ellipse cx="1143.5" cy="1953.7578" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="376" x="1152.5" y="1957.9863">getReport(accLevel: Types.accessLevel, docID: int): Report</text><ellipse cx="1143.5" cy="1971.3672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="728" x="1152.5" y="1975.5957">addReport(docID: int, addDate: LocalDate, addDoc: Doctor, addDis: Disease, addDrugs: ArrayList&lt;Drug&gt;): boolean</text><ellipse cx="1143.5" cy="1988.9766" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="850" x="1152.5" y="1993.2051">addReport(docID: int, addDate: LocalDate, addDoc: Doctor, addDis: Disease, addDrugs: ArrayList&lt;Drug&gt;, description: String): boolean</text></g><!--MD5=[5a42d898e2a5d299cc26761d1eaa7d84]
+class Doctor--><g id="elem_Doctor"><rect codeLine="106" fill="#F1F1F1" height="312.1406" id="Doctor" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="1127" x="1814" y="1034"/><ellipse cx="2352.25" cy="1050" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2355.0156,1045.875 Q2355.1719,1045.6563 2355.3594,1045.5469 Q2355.5469,1045.4375 2355.7656,1045.4375 Q2356.1406,1045.4375 2356.375,1045.7031 Q2356.6094,1045.9531 2356.6094,1046.5625 L2356.6094,1048.0156 Q2356.6094,1048.625 2356.375,1048.8906 Q2356.1406,1049.1563 2355.7656,1049.1563 Q2355.4219,1049.1563 2355.2188,1048.9531 Q2355.0156,1048.7656 2354.9063,1048.25 Q2354.8594,1047.8906 2354.6719,1047.7031 Q2354.3438,1047.3281 2353.7344,1047.1094 Q2353.125,1046.8906 2352.5,1046.8906 Q2351.7344,1046.8906 2351.0938,1047.2188 Q2350.4688,1047.5469 2349.9688,1048.2969 Q2349.4844,1049.0469 2349.4844,1050.0781 L2349.4844,1051.1719 Q2349.4844,1052.4063 2350.375,1053.2344 Q2351.2656,1054.0469 2352.8594,1054.0469 Q2353.7969,1054.0469 2354.4531,1053.7969 Q2354.8438,1053.6406 2355.2656,1053.2031 Q2355.5313,1052.9375 2355.6719,1052.8594 Q2355.8281,1052.7813 2356.0313,1052.7813 Q2356.3594,1052.7813 2356.6094,1053.0469 Q2356.875,1053.2969 2356.875,1053.6406 Q2356.875,1053.9844 2356.5313,1054.3906 Q2356.0313,1054.9688 2355.2344,1055.2969 Q2354.1563,1055.75 2352.8594,1055.75 Q2351.3438,1055.75 2350.1406,1055.125 Q2349.1563,1054.625 2348.4688,1053.5625 Q2347.7813,1052.4844 2347.7813,1051.2031 L2347.7813,1050.0469 Q2347.7813,1048.7188 2348.3906,1047.5781 Q2349.0156,1046.4219 2350.1094,1045.8125 Q2351.2031,1045.1875 2352.4375,1045.1875 Q2353.1719,1045.1875 2353.8125,1045.3594 Q2354.4688,1045.5156 2355.0156,1045.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="2372.75" y="1055.7285">Doctor</text><line style="stroke:#181818;stroke-width:0.5;" x1="1815" x2="2940" y1="1066" y2="1066"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1822" y="1077.3047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="173" x="1834" y="1084.5332">specialization: diseaseType</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1822" y="1094.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="1834" y="1102.1426">docPass: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1822" y="1112.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="174" x="1834" y="1119.752">patients: ArrayList&lt;Integer&gt;</text><line style="stroke:#181818;stroke-width:0.5;" x1="1815" x2="2940" y1="1126.8281" y2="1126.8281"/><ellipse cx="1825" cy="1141.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="1834" y="1145.3613">Doctor()</text><ellipse cx="1825" cy="1158.7422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="500" x="1834" y="1162.9707">Doctor(specialization: diseaseType, pID: int, firstName: String, lastName: String)</text><ellipse cx="1825" cy="1176.3516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="1101" x="1834" y="1180.5801">Doctor(specialization: diseaseType, pID: int, firstName: String, lastName: String, BirthDate: LocalDate, gender: Types.sex, city: String, address: String, pDegree: Types.degree)</text><ellipse cx="1825" cy="1193.9609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="319" x="1834" y="1198.1895">Doctor(pID: int, firstName: String, lastName: String)</text><ellipse cx="1825" cy="1211.5703" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="1042" x="1834" y="1215.7988">Doctor(pID: int, firstName: String, lastName: String, BirthDate: LocalDate, gender: Types.sex, city: String, address: String, occupation: String, pDegree: Types.degree)</text><ellipse cx="1825" cy="1229.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="205" x="1834" y="1233.4082">getPatients(): ArrayList&lt;Integer&gt;</text><ellipse cx="1825" cy="1246.7891" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="1834" y="1251.0176">addPatients(p: int): void</text><ellipse cx="1825" cy="1264.3984" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="205" x="1834" y="1268.627">getSpecialization(): diseaseType</text><ellipse cx="1825" cy="1282.0078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="322" x="1834" y="1286.2363">setSpecialization(specialization: diseaseType): void</text><ellipse cx="1825" cy="1299.6172" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="1834" y="1303.8457">getDocPass(): String</text><ellipse cx="1825" cy="1317.2266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="218" x="1834" y="1321.4551">setDocPass(docPass: String): void</text><ellipse cx="1825" cy="1334.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="1834" y="1339.0645">toString(): String</text></g><!--MD5=[811a01b27baaa475a5ac5fcf99b2b808]
+class Drug--><g id="elem_Drug"><rect codeLine="125" fill="#F1F1F1" height="241.7031" id="Drug" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="321" x="696" y="1591"/><ellipse cx="836.75" cy="1607" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M839.5156,1602.875 Q839.6719,1602.6563 839.8594,1602.5469 Q840.0469,1602.4375 840.2656,1602.4375 Q840.6406,1602.4375 840.875,1602.7031 Q841.1094,1602.9531 841.1094,1603.5625 L841.1094,1605.0156 Q841.1094,1605.625 840.875,1605.8906 Q840.6406,1606.1563 840.2656,1606.1563 Q839.9219,1606.1563 839.7188,1605.9531 Q839.5156,1605.7656 839.4063,1605.25 Q839.3594,1604.8906 839.1719,1604.7031 Q838.8438,1604.3281 838.2344,1604.1094 Q837.625,1603.8906 837,1603.8906 Q836.2344,1603.8906 835.5938,1604.2188 Q834.9688,1604.5469 834.4688,1605.2969 Q833.9844,1606.0469 833.9844,1607.0781 L833.9844,1608.1719 Q833.9844,1609.4063 834.875,1610.2344 Q835.7656,1611.0469 837.3594,1611.0469 Q838.2969,1611.0469 838.9531,1610.7969 Q839.3438,1610.6406 839.7656,1610.2031 Q840.0313,1609.9375 840.1719,1609.8594 Q840.3281,1609.7813 840.5313,1609.7813 Q840.8594,1609.7813 841.1094,1610.0469 Q841.375,1610.2969 841.375,1610.6406 Q841.375,1610.9844 841.0313,1611.3906 Q840.5313,1611.9688 839.7344,1612.2969 Q838.6563,1612.75 837.3594,1612.75 Q835.8438,1612.75 834.6406,1612.125 Q833.6563,1611.625 832.9688,1610.5625 Q832.2813,1609.4844 832.2813,1608.2031 L832.2813,1607.0469 Q832.2813,1605.7188 832.8906,1604.5781 Q833.5156,1603.4219 834.6094,1602.8125 Q835.7031,1602.1875 836.9375,1602.1875 Q837.6719,1602.1875 838.3125,1602.3594 Q838.9688,1602.5156 839.5156,1602.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31" x="857.25" y="1612.7285">Drug</text><line style="stroke:#181818;stroke-width:0.5;" x1="697" x2="1016" y1="1623" y2="1623"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="704" y="1634.3047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="716" y="1641.5332">dID: int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="704" y="1651.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="716" y="1659.1426">name: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="704" y="1669.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="716" y="1676.752">description: String</text><line style="stroke:#181818;stroke-width:0.5;" x1="697" x2="1016" y1="1683.8281" y2="1683.8281"/><ellipse cx="707" cy="1698.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="295" x="716" y="1702.3613">Drug(dID: int, name: String, description: String)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="704" y="1712.7422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="716" y="1719.9707">nonValidValue()</text><ellipse cx="707" cy="1733.3516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="716" y="1737.5801">getdID(): int</text><ellipse cx="707" cy="1750.9609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="716" y="1755.1895">getName(): String</text><ellipse cx="707" cy="1768.5703" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="716" y="1772.7988">getDescription(): String</text><ellipse cx="707" cy="1786.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="179" x="716" y="1790.4082">setName(name: String): void</text><ellipse cx="707" cy="1803.7891" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="248" x="716" y="1808.0176">setDescription(description: String): void</text><ellipse cx="707" cy="1821.3984" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="716" y="1825.627">toString(): String</text></g><!--MD5=[39c2281ae53c3ff3a0b7fb6db148b969]
+class FileManager--><g id="elem_FileManager"><rect codeLine="140" fill="#F1F1F1" height="188.875" id="FileManager" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="197" x="2842" y="42"/><ellipse cx="2896.75" cy="58" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2899.5156,53.875 Q2899.6719,53.6563 2899.8594,53.5469 Q2900.0469,53.4375 2900.2656,53.4375 Q2900.6406,53.4375 2900.875,53.7031 Q2901.1094,53.9531 2901.1094,54.5625 L2901.1094,56.0156 Q2901.1094,56.625 2900.875,56.8906 Q2900.6406,57.1563 2900.2656,57.1563 Q2899.9219,57.1563 2899.7188,56.9531 Q2899.5156,56.7656 2899.4063,56.25 Q2899.3594,55.8906 2899.1719,55.7031 Q2898.8438,55.3281 2898.2344,55.1094 Q2897.625,54.8906 2897,54.8906 Q2896.2344,54.8906 2895.5938,55.2188 Q2894.9688,55.5469 2894.4688,56.2969 Q2893.9844,57.0469 2893.9844,58.0781 L2893.9844,59.1719 Q2893.9844,60.4063 2894.875,61.2344 Q2895.7656,62.0469 2897.3594,62.0469 Q2898.2969,62.0469 2898.9531,61.7969 Q2899.3438,61.6406 2899.7656,61.2031 Q2900.0313,60.9375 2900.1719,60.8594 Q2900.3281,60.7813 2900.5313,60.7813 Q2900.8594,60.7813 2901.1094,61.0469 Q2901.375,61.2969 2901.375,61.6406 Q2901.375,61.9844 2901.0313,62.3906 Q2900.5313,62.9688 2899.7344,63.2969 Q2898.6563,63.75 2897.3594,63.75 Q2895.8438,63.75 2894.6406,63.125 Q2893.6563,62.625 2892.9688,61.5625 Q2892.2813,60.4844 2892.2813,59.2031 L2892.2813,58.0469 Q2892.2813,56.7188 2892.8906,55.5781 Q2893.5156,54.4219 2894.6094,53.8125 Q2895.7031,53.1875 2896.9375,53.1875 Q2897.6719,53.1875 2898.3125,53.3594 Q2898.9688,53.5156 2899.5156,53.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="2917.25" y="63.7285">FileManager</text><line style="stroke:#181818;stroke-width:0.5;" x1="2843" x2="3038" y1="74" y2="74"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2850" y="85.3047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="121" x="2862" y="92.5332">docFilesLoc: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2850" y="102.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="117" x="2862" y="110.1426">paiFilesLoc: String</text><line style="stroke:#181818;stroke-width:0.5;" x1="2843" x2="3038" y1="117.2188" y2="117.2188"/><ellipse cx="2853" cy="131.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="171" x="2862" y="135.752">writeDoc(doc: Doctor): void</text><ellipse cx="2853" cy="149.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="164" x="2862" y="153.3613">writePai(pai: Patient): void</text><ellipse cx="2853" cy="166.7422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="158" x="2862" y="170.9707">readDoc(nID: int): Doctor</text><ellipse cx="2853" cy="184.3516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="155" x="2862" y="188.5801">readPai(nID: int): Patient</text><ellipse cx="2853" cy="201.9609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="88" x="2862" y="206.1895">readAll(): void</text><ellipse cx="2853" cy="219.5703" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="88" x="2862" y="223.7988">writeAll(): void</text></g><!--MD5=[ad8695711b4558888d902c6f1395f487]
+class HealthMinistry--><g id="elem_HealthMinistry"><rect codeLine="152" fill="#F1F1F1" height="435.4063" id="HealthMinistry" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="432" x="620.5" y="432.5"/><ellipse cx="788.25" cy="448.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M791.0156,444.375 Q791.1719,444.1563 791.3594,444.0469 Q791.5469,443.9375 791.7656,443.9375 Q792.1406,443.9375 792.375,444.2031 Q792.6094,444.4531 792.6094,445.0625 L792.6094,446.5156 Q792.6094,447.125 792.375,447.3906 Q792.1406,447.6563 791.7656,447.6563 Q791.4219,447.6563 791.2188,447.4531 Q791.0156,447.2656 790.9063,446.75 Q790.8594,446.3906 790.6719,446.2031 Q790.3438,445.8281 789.7344,445.6094 Q789.125,445.3906 788.5,445.3906 Q787.7344,445.3906 787.0938,445.7188 Q786.4688,446.0469 785.9688,446.7969 Q785.4844,447.5469 785.4844,448.5781 L785.4844,449.6719 Q785.4844,450.9063 786.375,451.7344 Q787.2656,452.5469 788.8594,452.5469 Q789.7969,452.5469 790.4531,452.2969 Q790.8438,452.1406 791.2656,451.7031 Q791.5313,451.4375 791.6719,451.3594 Q791.8281,451.2813 792.0313,451.2813 Q792.3594,451.2813 792.6094,451.5469 Q792.875,451.7969 792.875,452.1406 Q792.875,452.4844 792.5313,452.8906 Q792.0313,453.4688 791.2344,453.7969 Q790.1563,454.25 788.8594,454.25 Q787.3438,454.25 786.1406,453.625 Q785.1563,453.125 784.4688,452.0625 Q783.7813,450.9844 783.7813,449.7031 L783.7813,448.5469 Q783.7813,447.2188 784.3906,446.0781 Q785.0156,444.9219 786.1094,444.3125 Q787.2031,443.6875 788.4375,443.6875 Q789.1719,443.6875 789.8125,443.8594 Q790.4688,444.0156 791.0156,444.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="808.75" y="454.2285">HealthMinistry</text><line style="stroke:#181818;stroke-width:0.5;" x1="621.5" x2="1051.5" y1="464.5" y2="464.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="628.5" y="475.8047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="162" x="640.5" y="483.0332">pList: LinkedList&lt;Patient&gt;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="628.5" y="493.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="160" x="640.5" y="500.6426">dList: LinkedList&lt;Doctor&gt;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="628.5" y="511.0234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="189" x="640.5" y="518.252">phList: LinkedList&lt;Pharmacy&gt;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="628.5" y="528.6328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="179" x="640.5" y="535.8613">disList: LinkedList&lt;Disease&gt;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="628.5" y="546.2422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="179" x="640.5" y="553.4707">uList: LinkedList&lt;University&gt;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="628.5" y="563.8516"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="114" x="640.5" y="571.0801">adminPass: String</text><line style="stroke:#181818;stroke-width:0.5;" x1="621.5" x2="1051.5" y1="578.1563" y2="578.1563"/><ellipse cx="631.5" cy="592.4609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="97" x="640.5" y="596.6895">printDoc(): void</text><ellipse cx="631.5" cy="610.0703" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="178" x="640.5" y="614.2988">checkDoc(inID: int): boolean</text><ellipse cx="631.5" cy="627.6797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="152" x="640.5" y="631.9082">getDoc(inID: int): Doctor</text><ellipse cx="631.5" cy="645.2891" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="149" x="640.5" y="649.5176">getPai(inID: int): Patient</text><ellipse cx="631.5" cy="662.8984" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="156" x="640.5" y="667.127">getDis(inID: int): Disease</text><ellipse cx="631.5" cy="680.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="406" x="640.5" y="684.7363">getPhar(askedDrugs: LinkedList&lt;Drug&gt;): LinkedList&lt;Pharmacy&gt;</text><ellipse cx="631.5" cy="698.1172" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="192" x="640.5" y="702.3457">getpList(): LinkedList&lt;Patient&gt;</text><ellipse cx="631.5" cy="715.7266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="158" x="640.5" y="719.9551">addpList(p: Patient): void</text><ellipse cx="631.5" cy="733.3359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="190" x="640.5" y="737.5645">getdList(): LinkedList&lt;Doctor&gt;</text><ellipse cx="631.5" cy="750.9453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="156" x="640.5" y="755.1738">adddList(d: Doctor): void</text><ellipse cx="631.5" cy="768.5547" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="220" x="640.5" y="772.7832">getPhList(): LinkedList&lt;Pharmacy&gt;</text><ellipse cx="631.5" cy="786.1641" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="291" x="640.5" y="790.3926">setPhList(phList: LinkedList&lt;Pharmacy&gt;): void</text><ellipse cx="631.5" cy="803.7734" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="209" x="640.5" y="808.002">getuList(): LinkedList&lt;University&gt;</text><ellipse cx="631.5" cy="821.3828" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="175" x="640.5" y="825.6113">adduList(u: University): void</text><ellipse cx="631.5" cy="838.9922" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="145" x="640.5" y="843.2207">getAdminPass(): String</text><ellipse cx="631.5" cy="856.6016" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="247" x="640.5" y="860.8301">setAdminPass(adminPass: String): void</text></g><!--MD5=[7f2a9fafcebe4f099f71398fd3e2ed00]
+class Pharmacy--><g id="elem_Pharmacy"><rect codeLine="178" fill="#F1F1F1" height="294.5313" id="Pharmacy" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="564" x="336.5" y="1042.5"/><ellipse cx="582.75" cy="1058.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M585.5156,1054.375 Q585.6719,1054.1563 585.8594,1054.0469 Q586.0469,1053.9375 586.2656,1053.9375 Q586.6406,1053.9375 586.875,1054.2031 Q587.1094,1054.4531 587.1094,1055.0625 L587.1094,1056.5156 Q587.1094,1057.125 586.875,1057.3906 Q586.6406,1057.6563 586.2656,1057.6563 Q585.9219,1057.6563 585.7188,1057.4531 Q585.5156,1057.2656 585.4063,1056.75 Q585.3594,1056.3906 585.1719,1056.2031 Q584.8438,1055.8281 584.2344,1055.6094 Q583.625,1055.3906 583,1055.3906 Q582.2344,1055.3906 581.5938,1055.7188 Q580.9688,1056.0469 580.4688,1056.7969 Q579.9844,1057.5469 579.9844,1058.5781 L579.9844,1059.6719 Q579.9844,1060.9063 580.875,1061.7344 Q581.7656,1062.5469 583.3594,1062.5469 Q584.2969,1062.5469 584.9531,1062.2969 Q585.3438,1062.1406 585.7656,1061.7031 Q586.0313,1061.4375 586.1719,1061.3594 Q586.3281,1061.2813 586.5313,1061.2813 Q586.8594,1061.2813 587.1094,1061.5469 Q587.375,1061.7969 587.375,1062.1406 Q587.375,1062.4844 587.0313,1062.8906 Q586.5313,1063.4688 585.7344,1063.7969 Q584.6563,1064.25 583.3594,1064.25 Q581.8438,1064.25 580.6406,1063.625 Q579.6563,1063.125 578.9688,1062.0625 Q578.2813,1060.9844 578.2813,1059.7031 L578.2813,1058.5469 Q578.2813,1057.2188 578.8906,1056.0781 Q579.5156,1054.9219 580.6094,1054.3125 Q581.7031,1053.6875 582.9375,1053.6875 Q583.6719,1053.6875 584.3125,1053.8594 Q584.9688,1054.0156 585.5156,1054.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="603.25" y="1064.2285">Pharmacy</text><line style="stroke:#181818;stroke-width:0.5;" x1="337.5" x2="899.5" y1="1074.5" y2="1074.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="344.5" y="1085.8047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="356.5" y="1093.0332">phID: int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="344.5" y="1103.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="356.5" y="1110.6426">name: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="344.5" y="1121.0234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="356.5" y="1128.252">address: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="344.5" y="1138.6328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="213" x="356.5" y="1145.8613">availableDrugs: LinkedList&lt;Drug&gt;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="344.5" y="1156.2422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="257" x="356.5" y="1163.4707">accLevel: Types.accessLevel {readOnly}</text><line style="stroke:#181818;stroke-width:0.5;" x1="337.5" x2="899.5" y1="1170.5469" y2="1170.5469"/><ellipse cx="347.5" cy="1184.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="538" x="356.5" y="1189.0801">Pharmacy(phID: int, name: String, address: String, availableDrugs: LinkedList&lt;Drug&gt;)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="344.5" y="1199.4609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135" x="356.5" y="1206.6895">nonValidValue(): void</text><ellipse cx="347.5" cy="1220.0703" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="331" x="356.5" y="1224.2988">isAvailable(askedDrugs: LinkedList&lt;Drug&gt;): boolean</text><ellipse cx="347.5" cy="1237.6797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="356.5" y="1241.9082">getPhID(): int</text><ellipse cx="347.5" cy="1255.2891" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="356.5" y="1259.5176">getName(): String</text><ellipse cx="347.5" cy="1272.8984" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="127" x="356.5" y="1277.127">getAddress(): String</text><ellipse cx="347.5" cy="1290.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="179" x="356.5" y="1294.7363">setName(name: String): void</text><ellipse cx="347.5" cy="1308.1172" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="211" x="356.5" y="1312.3457">setAddress(address: String): void</text><ellipse cx="347.5" cy="1325.7266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="356.5" y="1329.9551">toString(): String</text></g><!--MD5=[f00dbe8c0302c6aec2cb26b3c659c8fc]
+class Report--><g id="elem_Report"><rect codeLine="196" fill="#F1F1F1" height="241.7031" id="Report" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="801" x="140" y="2061"/><ellipse cx="514.75" cy="2077" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M517.5156,2072.875 Q517.6719,2072.6563 517.8594,2072.5469 Q518.0469,2072.4375 518.2656,2072.4375 Q518.6406,2072.4375 518.875,2072.7031 Q519.1094,2072.9531 519.1094,2073.5625 L519.1094,2075.0156 Q519.1094,2075.625 518.875,2075.8906 Q518.6406,2076.1563 518.2656,2076.1563 Q517.9219,2076.1563 517.7188,2075.9531 Q517.5156,2075.7656 517.4063,2075.25 Q517.3594,2074.8906 517.1719,2074.7031 Q516.8438,2074.3281 516.2344,2074.1094 Q515.625,2073.8906 515,2073.8906 Q514.2344,2073.8906 513.5938,2074.2188 Q512.9688,2074.5469 512.4688,2075.2969 Q511.9844,2076.0469 511.9844,2077.0781 L511.9844,2078.1719 Q511.9844,2079.4063 512.875,2080.2344 Q513.7656,2081.0469 515.3594,2081.0469 Q516.2969,2081.0469 516.9531,2080.7969 Q517.3438,2080.6406 517.7656,2080.2031 Q518.0313,2079.9375 518.1719,2079.8594 Q518.3281,2079.7813 518.5313,2079.7813 Q518.8594,2079.7813 519.1094,2080.0469 Q519.375,2080.2969 519.375,2080.6406 Q519.375,2080.9844 519.0313,2081.3906 Q518.5313,2081.9688 517.7344,2082.2969 Q516.6563,2082.75 515.3594,2082.75 Q513.8438,2082.75 512.6406,2082.125 Q511.6563,2081.625 510.9688,2080.5625 Q510.2813,2079.4844 510.2813,2078.2031 L510.2813,2077.0469 Q510.2813,2075.7188 510.8906,2074.5781 Q511.5156,2073.4219 512.6094,2072.8125 Q513.7031,2072.1875 514.9375,2072.1875 Q515.6719,2072.1875 516.3125,2072.3594 Q516.9688,2072.5156 517.5156,2072.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="535.25" y="2082.7285">Report</text><line style="stroke:#181818;stroke-width:0.5;" x1="141" x2="940" y1="2093" y2="2093"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="148" y="2104.3047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="160" y="2111.5332">reportNum: int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="148" y="2121.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="160" y="2129.1426">status: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="148" y="2139.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="205" x="160" y="2146.752">appList: ArrayList&lt;Appointment&gt;</text><line style="stroke:#181818;stroke-width:0.5;" x1="141" x2="940" y1="2153.8281" y2="2153.8281"/><ellipse cx="151" cy="2168.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142" x="160" y="2172.3613">Report(reportNum: int)</text><ellipse cx="151" cy="2185.7422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="160" y="2189.9707">getReportNum(): int</text><ellipse cx="151" cy="2203.3516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="223" x="160" y="2207.5801">setReportNum(reportNum: int): void</text><ellipse cx="151" cy="2220.9609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="160" y="2225.1895">getStatus(): String</text><ellipse cx="151" cy="2238.5703" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="186" x="160" y="2242.7988">setStatus(status: String): void</text><ellipse cx="151" cy="2256.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="775" x="160" y="2260.4082">addToReport(addDate: LocalDate, addDoc: Doctor, addDis: Disease, addDrugs: ArrayList&lt;Drug&gt;, description: String): void</text><ellipse cx="151" cy="2273.7891" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="653" x="160" y="2278.0176">addToReport(addDate: LocalDate, addDoc: Doctor, addDis: Disease, addDrugs: ArrayList&lt;Drug&gt;): void</text><ellipse cx="151" cy="2291.3984" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="236" x="160" y="2295.627">getAppList(): ArrayList&lt;Appointment&gt;</text></g><!--MD5=[9f93fc4de6aba39e63ecc8b5110a2944]
+class University--><g id="elem_University"><rect codeLine="211" fill="#F1F1F1" height="259.3125" id="University" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="283" x="18" y="1060.5"/><ellipse cx="124.75" cy="1076.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M127.5156,1072.375 Q127.6719,1072.1563 127.8594,1072.0469 Q128.0469,1071.9375 128.2656,1071.9375 Q128.6406,1071.9375 128.875,1072.2031 Q129.1094,1072.4531 129.1094,1073.0625 L129.1094,1074.5156 Q129.1094,1075.125 128.875,1075.3906 Q128.6406,1075.6563 128.2656,1075.6563 Q127.9219,1075.6563 127.7188,1075.4531 Q127.5156,1075.2656 127.4063,1074.75 Q127.3594,1074.3906 127.1719,1074.2031 Q126.8438,1073.8281 126.2344,1073.6094 Q125.625,1073.3906 125,1073.3906 Q124.2344,1073.3906 123.5938,1073.7188 Q122.9688,1074.0469 122.4688,1074.7969 Q121.9844,1075.5469 121.9844,1076.5781 L121.9844,1077.6719 Q121.9844,1078.9063 122.875,1079.7344 Q123.7656,1080.5469 125.3594,1080.5469 Q126.2969,1080.5469 126.9531,1080.2969 Q127.3438,1080.1406 127.7656,1079.7031 Q128.0313,1079.4375 128.1719,1079.3594 Q128.3281,1079.2813 128.5313,1079.2813 Q128.8594,1079.2813 129.1094,1079.5469 Q129.375,1079.7969 129.375,1080.1406 Q129.375,1080.4844 129.0313,1080.8906 Q128.5313,1081.4688 127.7344,1081.7969 Q126.6563,1082.25 125.3594,1082.25 Q123.8438,1082.25 122.6406,1081.625 Q121.6563,1081.125 120.9688,1080.0625 Q120.2813,1078.9844 120.2813,1077.7031 L120.2813,1076.5469 Q120.2813,1075.2188 120.8906,1074.0781 Q121.5156,1072.9219 122.6094,1072.3125 Q123.7031,1071.6875 124.9375,1071.6875 Q125.6719,1071.6875 126.3125,1071.8594 Q126.9688,1072.0156 127.5156,1072.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="145.25" y="1082.2285">University</text><line style="stroke:#181818;stroke-width:0.5;" x1="19" x2="300" y1="1092.5" y2="1092.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="26" y="1103.8047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="38" y="1111.0332">unID: int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="26" y="1121.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="38" y="1128.6426">uniName: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="26" y="1139.0234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="217" x="38" y="1146.252">researchData: LinkedList&lt;Report&gt;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="26" y="1156.6328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="257" x="38" y="1163.8613">accLevel: Types.accessLevel {readOnly}</text><line style="stroke:#181818;stroke-width:0.5;" x1="19" x2="300" y1="1170.9375" y2="1170.9375"/><ellipse cx="29" cy="1185.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="231" x="38" y="1189.4707">University(unID: int, uniName: String)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="26" y="1199.8516"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135" x="38" y="1207.0801">nonValidValue(): void</text><ellipse cx="29" cy="1220.4609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="38" y="1224.6895">getUnID(): int</text><ellipse cx="29" cy="1238.0703" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="38" y="1242.2988">getUniName(): String</text><ellipse cx="29" cy="1255.6797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="219" x="38" y="1259.9082">setUniName(uniName: String): void</text><ellipse cx="29" cy="1273.2891" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="252" x="38" y="1277.5176">getResearchData(): LinkedList&lt;Report&gt;</text><ellipse cx="29" cy="1290.8984" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="215" x="38" y="1295.127">addResearchData(r: Report): void</text><ellipse cx="29" cy="1308.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="38" y="1312.7363">toString(): String</text></g><!--MD5=[ff5b00e4f788038bc8b9934b246a9c20]
+class Types--><g id="elem_Types"><rect codeLine="228" fill="#F1F1F1" height="259.3125" id="Types" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="1121" x="7" y="7"/><ellipse cx="543.75" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M546.5156,18.875 Q546.6719,18.6563 546.8594,18.5469 Q547.0469,18.4375 547.2656,18.4375 Q547.6406,18.4375 547.875,18.7031 Q548.1094,18.9531 548.1094,19.5625 L548.1094,21.0156 Q548.1094,21.625 547.875,21.8906 Q547.6406,22.1563 547.2656,22.1563 Q546.9219,22.1563 546.7188,21.9531 Q546.5156,21.7656 546.4063,21.25 Q546.3594,20.8906 546.1719,20.7031 Q545.8438,20.3281 545.2344,20.1094 Q544.625,19.8906 544,19.8906 Q543.2344,19.8906 542.5938,20.2188 Q541.9688,20.5469 541.4688,21.2969 Q540.9844,22.0469 540.9844,23.0781 L540.9844,24.1719 Q540.9844,25.4063 541.875,26.2344 Q542.7656,27.0469 544.3594,27.0469 Q545.2969,27.0469 545.9531,26.7969 Q546.3438,26.6406 546.7656,26.2031 Q547.0313,25.9375 547.1719,25.8594 Q547.3281,25.7813 547.5313,25.7813 Q547.8594,25.7813 548.1094,26.0469 Q548.375,26.2969 548.375,26.6406 Q548.375,26.9844 548.0313,27.3906 Q547.5313,27.9688 546.7344,28.2969 Q545.6563,28.75 544.3594,28.75 Q542.8438,28.75 541.6406,28.125 Q540.6563,27.625 539.9688,26.5625 Q539.2813,25.4844 539.2813,24.2031 L539.2813,23.0469 Q539.2813,21.7188 539.8906,20.5781 Q540.5156,19.4219 541.6094,18.8125 Q542.7031,18.1875 543.9375,18.1875 Q544.6719,18.1875 545.3125,18.3594 Q545.9688,18.5156 546.5156,18.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39" x="564.25" y="28.7285">Types</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="1127" y1="39" y2="39"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="50.3047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="90" x="27" y="57.5332">DOC_CAP: int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="67.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="109" x="27" y="75.1426">basicPass: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="85.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="160" x="27" y="92.752">pIDs: LinkedList&lt;Integer&gt;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="103.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="175" x="27" y="110.3613">dNums: LinkedList&lt;Integer&gt;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="120.7422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="170" x="27" y="127.9707">unIDS: LinkedList&lt;Integer&gt;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="138.3516"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="162" x="27" y="145.5801">dIDS: LinkedList&lt;Integer&gt;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="155.9609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="170" x="27" y="163.1895">phIDS: LinkedList&lt;Integer&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167" x="27" y="180.7988">enum sex { Male, Female }</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="668" x="27" y="198.4082">enum degree { Undergraduate, Associate, Bachelor, Graduate, Master, Doctoral, Professional, Specialist }</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="1095" x="27" y="216.0176">enum diseaseType { General, AllergyAndImmunology, Anesthesiology, Dermatology, DiagnosticRadiology, InternalMedicine, MedicalGenetics, Neurology, Pathology, Urology }</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="271" x="27" y="233.627">enum diseaseLevel { Basic, Medium, High }</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="367" x="27" y="251.2363">enum accessLevel { Full, Partial, Private, Pharmaceutical }</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="1127" y1="258.3125" y2="258.3125"/></g><!--MD5=[2bcb4ed8a80557b2ef6fffedb3fa8726]
+reverse link Person to Patient--><g id="link_Person_Patient"><path d="M1869.24,954.78 C1835.16,983.28 1809.26,1010.31 1796.5,1034 C1733.22,1151.5 1735.52,1297.53 1757.76,1423.86 " fill="none" id="Person-backto-Patient" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1864.97,949.23,1884.9,942.03,1873.8,960.09,1864.97,949.23" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e774b5cbe088ad5732007cf1a18ca5a9]
+reverse link Person to Doctor--><g id="link_Person_Doctor"><path d="M2377.5,976.46 C2377.5,996.21 2377.5,1015.55 2377.5,1034 " fill="none" id="Person-backto-Doctor" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="2370.5,976.15,2377.5,956.15,2384.5,976.15,2370.5,976.15" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f5fb28041652b4dad325c09f93ff2d20]
+link Appointment to Doctor--><g id="link_Appointment_Doctor"><path codeLine="241" d="M1620.05,779.69 C1692.28,837.61 1781.53,904.4 1867.5,956 C1912.99,983.3 1962.22,1009.54 2011.55,1033.93 " fill="none" id="Appointment-Doctor" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1621.6091" y="801.1464">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="1972.1651" y="1022.9707">0..*</text></g><!--MD5=[9f07daa9ce6db0ea21a9923cdcf90338]
+link Appointment to Disease--><g id="link_Appointment_Disease"><path codeLine="242" d="M1410.21,779.52 C1374.33,858.63 1328.24,960.27 1290.95,1042.49 " fill="none" id="Appointment-Disease" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1401.5056" y="801.3964">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1287.3926" y="1031.5031">1</text></g><!--MD5=[732f9b09f81cf65cad6f0c9e758197c9]
+link Appointment to Drug--><g id="link_Appointment_Drug"><path codeLine="243" d="M1532.02,779.66 C1599.23,936.41 1677.04,1198.52 1530.5,1346 C1398.22,1479.13 1279.18,1332.18 1115.5,1424 C1043.94,1464.14 981.66,1531.39 936.12,1590.71 " fill="none" id="Appointment-Drug" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1530.5477" y="801.1147">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="920.58" y="1579.9432">0..*</text></g><!--MD5=[e432dda0b8e0f87774027793e7ab3f0d]
+link Doctor to Patient--><g id="link_Doctor_Patient"><path codeLine="246" d="M2073.36,1346.05 C2061.5,1355.62 2050.15,1365.6 2039.5,1376 C2024.47,1390.67 2010.22,1406.75 1996.78,1423.68 " fill="none" id="Doctor-Patient" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="70" x="2040.5" y="1390.4951">full access /</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="2038.1438" y="1367.4964">0..*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="1980.5328" y="1413.3051">0..*</text></g><!--MD5=[e432dda0b8e0f87774027793e7ab3f0d]
+link Doctor to Patient--><g id="link_Doctor_Patient"><path codeLine="247" d="M2218.6,1346.31 C2193.34,1371 2166.54,1397.2 2139.34,1423.79 " fill="none" id="Doctor-Patient-1" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="89" x="2175.5" y="1390.4951">partial access /</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="2190.4189" y="1367.769">0..*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="2126.8795" y="1413.418">0..*</text></g><!--MD5=[9eeb9a7ddcee7cb578c02afa0c0e2c0b]
+link Patient to Report--><g id="link_Patient_Report"><path codeLine="250" d="M1132.38,1968.74 C1042.93,2000.82 955,2032.35 875.41,2060.89 " fill="none" id="Patient-Report" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1117.542" y="1968.9561">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="889.641" y="2050.1348">1</text></g><!--MD5=[592ad579fee9626bfee3737ab7e51276]
+link Pharmacy to Drug--><g id="link_Pharmacy_Drug"><path codeLine="252" d="M685.59,1337.58 C722.23,1417.63 767.03,1515.51 801.57,1590.98 " fill="none" id="Pharmacy-Drug" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="683.7186" y="1358.6309">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="777.4104" y="1580.2305">0..*</text></g><!--MD5=[24d957d4f42cb949f56a41b946fedc33]
+link HealthMinistry to Patient--><g id="link_HealthMinistry_Patient"><path codeLine="254" d="M969.17,867.69 C998.68,901.75 1032.63,933.19 1070.5,956 C1248.13,1063 1365.63,908.24 1530.5,1034 C1598.4,1085.79 1679.84,1263.59 1742.9,1423.97 " fill="none" id="HealthMinistry-Patient" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="953.5785" y="889.2949">0..*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="1719.9091" y="1413.6028">0..*</text></g><!--MD5=[c6a6694025763e9e3e4eacd7eaac7302]
+link HealthMinistry to Doctor--><g id="link_HealthMinistry_Doctor"><path codeLine="255" d="M964.18,867.75 C994.56,902.83 1030.1,934.61 1070.5,956 C1173.19,1010.36 1477.71,968.04 1592.5,986 C1671.43,998.35 1753.93,1015.2 1834.56,1033.95 " fill="none" id="HealthMinistry-Doctor" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="948.4091" y="889.357">0..*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="1786.049" y="1022.9917">0..*</text></g><!--MD5=[3df8aeadf7681484fea1a725b1c925db]
+link HealthMinistry to Pharmacy--><g id="link_HealthMinistry_Pharmacy"><path codeLine="256" d="M748.62,867.89 C724.85,926.54 699.69,988.63 677.89,1042.42 " fill="none" id="HealthMinistry-Pharmacy" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="725.1024" y="889.5021">0..*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="660.591" y="1031.4293">0..*</text></g><!--MD5=[d017facec2cc74cea0aee2a8f70a51f3]
+link HealthMinistry to Disease--><g id="link_HealthMinistry_Disease"><path codeLine="257" d="M992.92,867.89 C1035.22,926.54 1080,988.63 1118.79,1042.42 " fill="none" id="HealthMinistry-Disease" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="978.182" y="889.5021">0..*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="1092.4621" y="1031.4293">0..*</text></g><!--MD5=[0f6ebc45f3f11249efdc7a59c22c3d38]
+link HealthMinistry to University--><g id="link_HealthMinistry_University"><path codeLine="258" d="M620.41,800.74 C525.5,869.03 414.14,952.68 318.5,1034 C308.66,1042.37 298.68,1051.2 288.75,1060.23 " fill="none" id="HealthMinistry-University" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="592.2849" y="803.3639">0..*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="275.6441" y="1049.7614">0..*</text></g><!--MD5=[443f62089999989419674eb18ee8cdd0]
+link University to Report--><g id="link_University_Report"><path codeLine="260" d="M209.02,1319.66 C283.14,1512.28 421.96,1872.98 494.18,2060.63 " fill="none" id="University-Report" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="191.3048" y="1341.1147">0..*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="470.748" y="2050.2614">0..*</text></g><!--MD5=[466dc69b31129ee8d1c82b36ab62c08d]
+link Types to Person--><g id="link_Types_Person"><path codeLine="268" d="M769.03,266.14 C807.99,285.59 849.49,302.85 890.5,314 C1100.11,370.97 1659.04,282.96 1867.5,344 C1873.32,345.7 1879.14,347.49 1884.95,349.35 " fill="none" id="Types-Person" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[69f340f5eb3daf8d042a3e25552b1109]
+link Types to HealthMinistry--><g id="link_Types_HealthMinistry"><path codeLine="269" d="M635.21,266.24 C661.66,316.55 692.74,375.65 722.46,432.15 " fill="none" id="Types-HealthMinistry" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[88b6b85f8da39d86e879a7f40769ec0a]
+link Types to Pharmacy--><g id="link_Types_Pharmacy"><path codeLine="270" d="M544.6,266.17 C543.35,276.24 542.29,286.27 541.5,296 C515.95,609.63 479.85,695.43 541.5,1004 C544.04,1016.71 547.47,1029.63 551.48,1042.45 " fill="none" id="Types-Pharmacy" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d34ffbd38d50fa9c57b8e59e5c50489c]
+link Types to University--><g id="link_Types_University"><path codeLine="271" d="M517.57,266.17 C439.15,468.29 287.95,857.95 209.49,1060.17 " fill="none" id="Types-University" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[11b6211785c608dfb0788bae0d461635]
+link Types to Disease--><g id="link_Types_Disease"><path codeLine="272" d="M564.68,266.09 C561.14,483.2 559.97,904.02 602.5,956 C694.11,1067.96 782.88,983.66 918.5,1034 C925.76,1036.69 933.07,1039.51 940.41,1042.44 " fill="none" id="Types-Disease" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[99545067fce72dee7bc979e9aa3a751c]
+link FileManager to Doctor--><g id="link_FileManager_Doctor"><path codeLine="275" d="M2946.13,231.29 C2955.65,420.75 2966.85,840.88 2887.5,956 C2868.15,984.07 2844.55,1008.83 2818.22,1030.65 " fill="none" id="FileManager-to-Doctor" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="2814.31,1033.84,2823.807,1031.231,2818.1779,1030.6715,2818.7374,1025.0424,2814.31,1033.84" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="56" x="2953.5" y="655.4951">read/write</text></g><!--MD5=[2fa535436400a4fe76b543ea113206dc]
+link FileManager to Patient--><g id="link_FileManager_Patient"><path codeLine="276" d="M2984.01,231.06 C2997.94,265.75 3011.55,305.92 3018.5,344 C3098.62,782.88 3247.02,1005.72 2958.5,1346 C2856.13,1466.74 2713.1,1547.8 2563.62,1602.14 " fill="none" id="FileManager-to-Patient" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="2558.75,1603.9,2568.5739,1604.6003,2563.4519,1602.1993,2565.8528,1597.0773,2558.75,1603.9" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="56" x="3126.5" y="1000.4951">read/write</text></g><!--MD5=[0fbbb5af9e0839ffd393c86801626cf0]
+link FileManager to HealthMinistry--><g id="link_FileManager_HealthMinistry"><path codeLine="277" d="M2841.79,138.35 C2501.06,142.79 1378.26,170.56 1070.5,344 C1032.79,365.25 999.16,395.32 969.98,428.36 " fill="none" id="FileManager-to-HealthMinistry" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="966.44,432.41,975.3679,428.2516,969.7244,428.64,969.336,422.9965,966.44,432.41" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="56" x="1178.5" y="310.4951">read/write</text></g><!--MD5=[9c98886e4e7d1ad714c876c890145869]
+@startuml E-Health
+
+class Appointment {
+    - appDate: LocalDate
+    - appDoc: Doctor
+    - appDis: Disease
+    - appDrugs: ArrayList<Drug>
+    - description: String
+
+    + Appointment(appDate: LocalDate, appDoc: Doctor, appDis: Disease, appDrugs: ArrayList<Drug>)
+    + Appointment(appDate: LocalDate, appDoc: Doctor, appDis: Disease, appDrugs: ArrayList<Drug>, description: String)
+    + getAppDate(): LocalDate
+    + getAppDoc(): Doctor
+    + getAppDis(): Disease
+    + getAppDrugs(): ArrayList<Drug>
+    + getDescription(): String
+}
+
+class Disease {
+    - diseaseNum: int
+    - diseaseName: String
+    - type: diseaseType
+    - level: diseaseLevel
+
+    + Disease(diseaseNum: int, diseaseName: String, type: diseaseType, level: diseaseLevel)
+    - nonValidValue()
+    + getDiseaseNum(): int
+    + getDiseaseName(): String
+    + getType(): diseaseType
+    + getLevel(): diseaseLevel
+    + setDiseaseName(diseaseName: String): void
+    + setType(type: diseaseType): void
+    + setLevel(level: diseaseLevel): void
+    + toString(): String
+}
+
+abstract class Person {
+    - pID: int
+    - firstName: String
+    - lastName: String
+    - BirthDate: LocalDate
+    - age: int
+    - gender: sex
+    - city: String
+    - address: String
+    - occupation: String
+    - pDegree: degree
+
+    + Person(pID: int, firstName: String, lastName: String)
+    + Person(pID: int, firstName: String, lastName: String, BirthDate: LocalDate, gender: sex, city: String, address: String, occupation: String, pDegree: degree)
+    - defaultValue(): void
+    - nonValidValue(): void
+    + getpID(): int
+    + getFirstName(): String
+    + setFirstName(firstName: String): void
+    + getLastName(): String
+    + setLastName(lastName: String): void
+    + getBirthDate(): LocalDate
+    + setBirthDate(BirthDate: LocalDate): void
+    + getAge(): int
+    + getGender(): sex
+    + setGender(gender: sex): void
+    + getCity(): String
+    + setCity(city: String): void
+    + getAddress(): String
+    + setAddress(address: String): void
+    + getOccupation(): String
+    + setOccupation(occupation: String): void
+    + getpDegree(): degree
+    + setpDegree(pDegree: degree): void
+}
+
+class Patient extends Person {
+    - patientPass: String
+    - selectedDoc: boolean
+    - basicInsurance: String
+    - supplementaryInsurance: String
+    - pReport: Report
+    - toShare: boolean
+    - fullDoc: ArrayList<Doctor>
+    - partialDoc: ArrayList<Doctor>
+
+    + Patient(basicInsurance: String, supplementaryInsurance: String, pID: int, firstName: String, lastName: String)
+    + Patient(basicInsurance: String, supplementaryInsurance: String, pID: int, firstName: String, lastName: String, BirthDate: LocalDate, gender: Types.sex, city: String, address: String, occupation: String, pDegree: Types.degree)
+    + Patient(pID: int, firstName: String, lastName: String)
+    + Patient(pID: int, firstName: String, lastName: String, BirthDate: LocalDate, gender: Types.sex, city: String, address: String, occupation: String, pDegree: Types.degree)
+    + getPatientPass(): String
+    + setPatientPass(patientPass: String): void
+    + getBasicInsurance(): String
+    + setBasicInsurance(basicInsurance: String): void
+    + getSupplementaryInsurance(): String
+    + setSupplementaryInsurance(supplementaryInsurance: String): void
+    + isToShare(): boolean
+    + setToShare(toShare: boolean): void
+    + getFullDoc(): ArrayList<Doctor>
+    + addFullDoc(fullDoc: Doctor): void
+    + getPartialDoc(): ArrayList<Doctor>
+    + addPartialDoc(partialDoc: Doctor): void
+    + isSelectedDoc(): boolean
+    + setSelectedDoc(selectedDoc: boolean): void
+    + toString(): String
+    + getReport(accLevel: Types.accessLevel, docID: int): Report
+    + addReport(docID: int, addDate: LocalDate, addDoc: Doctor, addDis: Disease, addDrugs: ArrayList<Drug>): boolean
+    + addReport(docID: int, addDate: LocalDate, addDoc: Doctor, addDis: Disease, addDrugs: ArrayList<Drug>, description: String): boolean
+}
+
+class Doctor extends Person {
+    - specialization: diseaseType
+    - docPass: String
+    - patients: ArrayList<Integer>
+
+    + Doctor()
+    + Doctor(specialization: diseaseType, pID: int, firstName: String, lastName: String)
+    + Doctor(specialization: diseaseType, pID: int, firstName: String, lastName: String, BirthDate: LocalDate, gender: Types.sex, city: String, address: String, pDegree: Types.degree)
+    + Doctor(pID: int, firstName: String, lastName: String)
+    + Doctor(pID: int, firstName: String, lastName: String, BirthDate: LocalDate, gender: Types.sex, city: String, address: String, occupation: String, pDegree: Types.degree)
+    + getPatients(): ArrayList<Integer>
+    + addPatients(p: int): void
+    + getSpecialization(): diseaseType
+    + setSpecialization(specialization: diseaseType): void
+    + getDocPass(): String
+    + setDocPass(docPass: String): void
+    + toString(): String
+}
+
+class Drug {
+    - dID: int
+    - name: String
+    - description: String
+
+    + Drug(dID: int, name: String, description: String)
+    - nonValidValue()
+    + getdID(): int
+    + getName(): String
+    + getDescription(): String
+    + setName(name: String): void
+    + setDescription(description: String): void
+    + toString(): String
+}
+
+class FileManager {
+    {static} - docFilesLoc: String
+    {static} - paiFilesLoc: String
+
+    {static} + writeDoc(doc: Doctor): void
+    {static} + writePai(pai: Patient): void
+    {static} + readDoc(nID: int): Doctor
+    {static} + readPai(nID: int): Patient
+    {static} + readAll(): void
+    {static} + writeAll(): void
+}
+
+class HealthMinistry {
+    {static} - pList: LinkedList<Patient>
+    {static} - dList: LinkedList<Doctor>
+    {static} - phList: LinkedList<Pharmacy>
+    {static} - disList: LinkedList<Disease>
+    {static} - uList: LinkedList<University>
+    {static} - adminPass: String
+
+    {static} + printDoc(): void
+    {static} + checkDoc(inID: int): boolean
+    {static} + getDoc(inID: int): Doctor
+    {static} + getPai(inID: int): Patient
+    {static} + getDis(inID: int): Disease
+    {static} + getPhar(askedDrugs: LinkedList<Drug>): LinkedList<Pharmacy>
+    {static} + getpList(): LinkedList<Patient>
+    {static} + addpList(p: Patient): void
+    {static} + getdList(): LinkedList<Doctor>
+    {static} + adddList(d: Doctor): void
+    {static} + getPhList(): LinkedList<Pharmacy>
+    {static} + setPhList(phList: LinkedList<Pharmacy>): void
+    {static} + getuList(): LinkedList<University>
+    {static} + adduList(u: University): void
+    {static} + getAdminPass(): String
+    {static} + setAdminPass(adminPass: String): void
+}
+
+class Pharmacy {
+    - phID: int
+    - name: String
+    - address: String
+    - availableDrugs: LinkedList<Drug>
+    - accLevel: Types.accessLevel {readOnly}
+
+    + Pharmacy(phID: int, name: String, address: String, availableDrugs: LinkedList<Drug>)
+    - nonValidValue(): void
+    + isAvailable(askedDrugs: LinkedList<Drug>): boolean
+    + getPhID(): int
+    + getName(): String
+    + getAddress(): String
+    + setName(name: String): void
+    + setAddress(address: String): void
+    + toString(): String
+}
+
+class Report {
+    - reportNum: int
+    - status: String
+    - appList: ArrayList<Appointment>
+
+    + Report(reportNum: int)
+    + getReportNum(): int
+    + setReportNum(reportNum: int): void
+    + getStatus(): String
+    + setStatus(status: String): void
+    + addToReport(addDate: LocalDate, addDoc: Doctor, addDis: Disease, addDrugs: ArrayList<Drug>, description: String): void
+    + addToReport(addDate: LocalDate, addDoc: Doctor, addDis: Disease, addDrugs: ArrayList<Drug>): void
+    + getAppList(): ArrayList<Appointment>
+}
+
+class University {
+    - unID: int
+    - uniName: String
+    - researchData: LinkedList<Report>
+    - accLevel: Types.accessLevel {readOnly}
+
+    + University(unID: int, uniName: String)
+    - nonValidValue(): void
+    + getUnID(): int
+    + getUniName(): String
+    + setUniName(uniName: String): void
+    + getResearchData(): LinkedList<Report>
+    + addResearchData(r: Report): void
+    + toString(): String
+}
+
+
+class Types {
+    {static} - DOC_CAP: int
+    {static} - basicPass: String
+    {static} - pIDs: LinkedList<Integer>
+    {static} - dNums: LinkedList<Integer>
+    {static} - unIDS: LinkedList<Integer>
+    {static} - dIDS: LinkedList<Integer>
+    {static} - phIDS: LinkedList<Integer>
+}
+
+
+
+' Relationships
+Appointment "1" - - "0..*" Doctor
+Appointment "*" - - "1" Disease
+Appointment "*" - - "0..*" Drug
+
+' Doctor - -|> Person
+Doctor "0..*" - - "0..*" Patient : full access /
+Doctor "0..*" - - "0..*" Patient : partial access /
+
+' Patient - -|> Person
+Patient "1" - - "1" Report
+
+Pharmacy "*" - - "0..*" Drug
+
+HealthMinistry "0..*" - - "0..*" Patient
+HealthMinistry "0..*" - - "0..*" Doctor
+HealthMinistry "0..*" - - "0..*" Pharmacy
+HealthMinistry "0..*" - - "0..*" Disease
+HealthMinistry "0..*" - - "0..*" University
+
+University "0..*" - - "0..*" Report
+
+' Enumerations inside Types
+Types : enum sex { Male, Female }
+Types : enum degree { Undergraduate, Associate, Bachelor, Graduate, Master, Doctoral, Professional, Specialist }
+Types : enum diseaseType { General, AllergyAndImmunology, Anesthesiology, Dermatology, DiagnosticRadiology, InternalMedicine, MedicalGenetics, Neurology, Pathology, Urology }
+Types : enum diseaseLevel { Basic, Medium, High }
+Types : enum accessLevel { Full, Partial, Private, Pharmaceutical }
+Types - - Person
+Types - - HealthMinistry
+Types - - Pharmacy
+Types - - University
+Types - - Disease
+
+' FileManager interactions
+FileManager ..> Doctor : read/write
+FileManager ..> Patient : read/write
+FileManager ..> HealthMinistry : read/write
+
+@enduml
+
+@startuml E-Health
+
+class Appointment {
+    - appDate: LocalDate
+    - appDoc: Doctor
+    - appDis: Disease
+    - appDrugs: ArrayList<Drug>
+    - description: String
+
+    + Appointment(appDate: LocalDate, appDoc: Doctor, appDis: Disease, appDrugs: ArrayList<Drug>)
+    + Appointment(appDate: LocalDate, appDoc: Doctor, appDis: Disease, appDrugs: ArrayList<Drug>, description: String)
+    + getAppDate(): LocalDate
+    + getAppDoc(): Doctor
+    + getAppDis(): Disease
+    + getAppDrugs(): ArrayList<Drug>
+    + getDescription(): String
+}
+
+class Disease {
+    - diseaseNum: int
+    - diseaseName: String
+    - type: diseaseType
+    - level: diseaseLevel
+
+    + Disease(diseaseNum: int, diseaseName: String, type: diseaseType, level: diseaseLevel)
+    - nonValidValue()
+    + getDiseaseNum(): int
+    + getDiseaseName(): String
+    + getType(): diseaseType
+    + getLevel(): diseaseLevel
+    + setDiseaseName(diseaseName: String): void
+    + setType(type: diseaseType): void
+    + setLevel(level: diseaseLevel): void
+    + toString(): String
+}
+
+abstract class Person {
+    - pID: int
+    - firstName: String
+    - lastName: String
+    - BirthDate: LocalDate
+    - age: int
+    - gender: sex
+    - city: String
+    - address: String
+    - occupation: String
+    - pDegree: degree
+
+    + Person(pID: int, firstName: String, lastName: String)
+    + Person(pID: int, firstName: String, lastName: String, BirthDate: LocalDate, gender: sex, city: String, address: String, occupation: String, pDegree: degree)
+    - defaultValue(): void
+    - nonValidValue(): void
+    + getpID(): int
+    + getFirstName(): String
+    + setFirstName(firstName: String): void
+    + getLastName(): String
+    + setLastName(lastName: String): void
+    + getBirthDate(): LocalDate
+    + setBirthDate(BirthDate: LocalDate): void
+    + getAge(): int
+    + getGender(): sex
+    + setGender(gender: sex): void
+    + getCity(): String
+    + setCity(city: String): void
+    + getAddress(): String
+    + setAddress(address: String): void
+    + getOccupation(): String
+    + setOccupation(occupation: String): void
+    + getpDegree(): degree
+    + setpDegree(pDegree: degree): void
+}
+
+class Patient extends Person {
+    - patientPass: String
+    - selectedDoc: boolean
+    - basicInsurance: String
+    - supplementaryInsurance: String
+    - pReport: Report
+    - toShare: boolean
+    - fullDoc: ArrayList<Doctor>
+    - partialDoc: ArrayList<Doctor>
+
+    + Patient(basicInsurance: String, supplementaryInsurance: String, pID: int, firstName: String, lastName: String)
+    + Patient(basicInsurance: String, supplementaryInsurance: String, pID: int, firstName: String, lastName: String, BirthDate: LocalDate, gender: Types.sex, city: String, address: String, occupation: String, pDegree: Types.degree)
+    + Patient(pID: int, firstName: String, lastName: String)
+    + Patient(pID: int, firstName: String, lastName: String, BirthDate: LocalDate, gender: Types.sex, city: String, address: String, occupation: String, pDegree: Types.degree)
+    + getPatientPass(): String
+    + setPatientPass(patientPass: String): void
+    + getBasicInsurance(): String
+    + setBasicInsurance(basicInsurance: String): void
+    + getSupplementaryInsurance(): String
+    + setSupplementaryInsurance(supplementaryInsurance: String): void
+    + isToShare(): boolean
+    + setToShare(toShare: boolean): void
+    + getFullDoc(): ArrayList<Doctor>
+    + addFullDoc(fullDoc: Doctor): void
+    + getPartialDoc(): ArrayList<Doctor>
+    + addPartialDoc(partialDoc: Doctor): void
+    + isSelectedDoc(): boolean
+    + setSelectedDoc(selectedDoc: boolean): void
+    + toString(): String
+    + getReport(accLevel: Types.accessLevel, docID: int): Report
+    + addReport(docID: int, addDate: LocalDate, addDoc: Doctor, addDis: Disease, addDrugs: ArrayList<Drug>): boolean
+    + addReport(docID: int, addDate: LocalDate, addDoc: Doctor, addDis: Disease, addDrugs: ArrayList<Drug>, description: String): boolean
+}
+
+class Doctor extends Person {
+    - specialization: diseaseType
+    - docPass: String
+    - patients: ArrayList<Integer>
+
+    + Doctor()
+    + Doctor(specialization: diseaseType, pID: int, firstName: String, lastName: String)
+    + Doctor(specialization: diseaseType, pID: int, firstName: String, lastName: String, BirthDate: LocalDate, gender: Types.sex, city: String, address: String, pDegree: Types.degree)
+    + Doctor(pID: int, firstName: String, lastName: String)
+    + Doctor(pID: int, firstName: String, lastName: String, BirthDate: LocalDate, gender: Types.sex, city: String, address: String, occupation: String, pDegree: Types.degree)
+    + getPatients(): ArrayList<Integer>
+    + addPatients(p: int): void
+    + getSpecialization(): diseaseType
+    + setSpecialization(specialization: diseaseType): void
+    + getDocPass(): String
+    + setDocPass(docPass: String): void
+    + toString(): String
+}
+
+class Drug {
+    - dID: int
+    - name: String
+    - description: String
+
+    + Drug(dID: int, name: String, description: String)
+    - nonValidValue()
+    + getdID(): int
+    + getName(): String
+    + getDescription(): String
+    + setName(name: String): void
+    + setDescription(description: String): void
+    + toString(): String
+}
+
+class FileManager {
+    {static} - docFilesLoc: String
+    {static} - paiFilesLoc: String
+
+    {static} + writeDoc(doc: Doctor): void
+    {static} + writePai(pai: Patient): void
+    {static} + readDoc(nID: int): Doctor
+    {static} + readPai(nID: int): Patient
+    {static} + readAll(): void
+    {static} + writeAll(): void
+}
+
+class HealthMinistry {
+    {static} - pList: LinkedList<Patient>
+    {static} - dList: LinkedList<Doctor>
+    {static} - phList: LinkedList<Pharmacy>
+    {static} - disList: LinkedList<Disease>
+    {static} - uList: LinkedList<University>
+    {static} - adminPass: String
+
+    {static} + printDoc(): void
+    {static} + checkDoc(inID: int): boolean
+    {static} + getDoc(inID: int): Doctor
+    {static} + getPai(inID: int): Patient
+    {static} + getDis(inID: int): Disease
+    {static} + getPhar(askedDrugs: LinkedList<Drug>): LinkedList<Pharmacy>
+    {static} + getpList(): LinkedList<Patient>
+    {static} + addpList(p: Patient): void
+    {static} + getdList(): LinkedList<Doctor>
+    {static} + adddList(d: Doctor): void
+    {static} + getPhList(): LinkedList<Pharmacy>
+    {static} + setPhList(phList: LinkedList<Pharmacy>): void
+    {static} + getuList(): LinkedList<University>
+    {static} + adduList(u: University): void
+    {static} + getAdminPass(): String
+    {static} + setAdminPass(adminPass: String): void
+}
+
+class Pharmacy {
+    - phID: int
+    - name: String
+    - address: String
+    - availableDrugs: LinkedList<Drug>
+    - accLevel: Types.accessLevel {readOnly}
+
+    + Pharmacy(phID: int, name: String, address: String, availableDrugs: LinkedList<Drug>)
+    - nonValidValue(): void
+    + isAvailable(askedDrugs: LinkedList<Drug>): boolean
+    + getPhID(): int
+    + getName(): String
+    + getAddress(): String
+    + setName(name: String): void
+    + setAddress(address: String): void
+    + toString(): String
+}
+
+class Report {
+    - reportNum: int
+    - status: String
+    - appList: ArrayList<Appointment>
+
+    + Report(reportNum: int)
+    + getReportNum(): int
+    + setReportNum(reportNum: int): void
+    + getStatus(): String
+    + setStatus(status: String): void
+    + addToReport(addDate: LocalDate, addDoc: Doctor, addDis: Disease, addDrugs: ArrayList<Drug>, description: String): void
+    + addToReport(addDate: LocalDate, addDoc: Doctor, addDis: Disease, addDrugs: ArrayList<Drug>): void
+    + getAppList(): ArrayList<Appointment>
+}
+
+class University {
+    - unID: int
+    - uniName: String
+    - researchData: LinkedList<Report>
+    - accLevel: Types.accessLevel {readOnly}
+
+    + University(unID: int, uniName: String)
+    - nonValidValue(): void
+    + getUnID(): int
+    + getUniName(): String
+    + setUniName(uniName: String): void
+    + getResearchData(): LinkedList<Report>
+    + addResearchData(r: Report): void
+    + toString(): String
+}
+
+
+class Types {
+    {static} - DOC_CAP: int
+    {static} - basicPass: String
+    {static} - pIDs: LinkedList<Integer>
+    {static} - dNums: LinkedList<Integer>
+    {static} - unIDS: LinkedList<Integer>
+    {static} - dIDS: LinkedList<Integer>
+    {static} - phIDS: LinkedList<Integer>
+}
+
+
+
+Appointment "1" - - "0..*" Doctor
+Appointment "*" - - "1" Disease
+Appointment "*" - - "0..*" Drug
+
+Doctor "0..*" - - "0..*" Patient : full access /
+Doctor "0..*" - - "0..*" Patient : partial access /
+
+Patient "1" - - "1" Report
+
+Pharmacy "*" - - "0..*" Drug
+
+HealthMinistry "0..*" - - "0..*" Patient
+HealthMinistry "0..*" - - "0..*" Doctor
+HealthMinistry "0..*" - - "0..*" Pharmacy
+HealthMinistry "0..*" - - "0..*" Disease
+HealthMinistry "0..*" - - "0..*" University
+
+University "0..*" - - "0..*" Report
+
+Types : enum sex { Male, Female }
+Types : enum degree { Undergraduate, Associate, Bachelor, Graduate, Master, Doctoral, Professional, Specialist }
+Types : enum diseaseType { General, AllergyAndImmunology, Anesthesiology, Dermatology, DiagnosticRadiology, InternalMedicine, MedicalGenetics, Neurology, Pathology, Urology }
+Types : enum diseaseLevel { Basic, Medium, High }
+Types : enum accessLevel { Full, Partial, Private, Pharmaceutical }
+Types - - Person
+Types - - HealthMinistry
+Types - - Pharmacy
+Types - - University
+Types - - Disease
+
+FileManager ..> Doctor : read/write
+FileManager ..> Patient : read/write
+FileManager ..> HealthMinistry : read/write
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 20:01:30 AST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1256
+Language: en
+Country: US
+--></g></svg>
